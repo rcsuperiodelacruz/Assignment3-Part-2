@@ -12,7 +12,13 @@ The included backend server runs on port 8080, 127.0.0.1:8080
 - service file for backend, hello-server.service
 - config for setting up servers, cloud-config.yml
 - example curl commands for testing your server, curl.md
+## File Locations
 
-## Included material
+- hello-server: /home/web/
+- hello-server.service: /etc/systemd/system
+- hello.conf: /etc/nginx/sites-available
+- index.html: /var/www/my-site
+
+## Video Link
 
 video link (https://youtu.be/zvPH6UYhqRU)
